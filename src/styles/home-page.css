@@ -1,0 +1,125 @@
+.home-line {
+	display: block;
+	height: 3px;
+	border: 3px solid #455A64;
+	margin-right: 23px;
+	margin-left: 23px;
+}
+
+.home-content {
+	margin-right: 23px;
+	margin-left: 23px;
+	padding-top: 23px;
+	width: auto;
+	height: calc(100vh - 150px);
+}
+
+.mdc-card.login {
+	height: auto;
+	width: 271px;
+	/*TODO: if set opacity, the text above seems blur*/
+	/*opacity: 0.63;*/
+	background-color: #CFEBD7;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.login h2 {
+	height: 54px;
+	color: #34515E;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 54px;
+	text-align: center;
+}
+
+.login-error {
+	height: 70px;
+	width: 241px;
+	background-color: #E05869;
+	color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+
+.login-error p{
+	margin: -30px 0 0 30px;
+	color: #FFF;
+}
+
+.login .mdc-text-field__bottom-line--active{
+	background-color: #34515E;
+}
+
+.login .forget-password a{
+	color: #455A64 !important;
+	margin: 0 0 0 60px;
+	width: 100%;
+	text-align: center;
+}
+
+/*login button*/
+.login button{
+	width: 167px;
+	margin-left: 29px;
+	margin-bottom: 10px;
+}
+
+.login .mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled){
+	background-color: #34515E;
+}
+
+.login .inputbox{
+	margin-left: 29px;
+}
+
+/*.login span{*/
+/*margin-right: 10px;*/
+/*margin-left: 10px;*/
+/*}*/
+
+.login .mdc-card__supporting-text {
+	color: #455A64;
+}
+
+.login .not-active {
+	pointer-events: none;
+	cursor: default;
+}
+
+/*on the home page*/
+.register-block {
+	height: 190px;
+	width: 243px;
+	background-color: #108632;
+	padding: 0 5px 0 5px;
+	margin: auto;
+}
+
+.register-block p,a{
+	color: #FFF ;
+}
+
+.register {
+	height: 91px;
+	width: 210px;
+	text-align: center;
+}
+
+.unlogin .mdc-dialog__body{
+	color: #0C0033 !important;
+	text-align: center;
+}
+
+.unlogin .material-icons{
+	font-size: 40px;
+}
+
+.unlogin .mdc-button:not(:disabled){
+	color: #0C0033;
+}
+
+
+/*register page*/
+.registration button{
+	width: 160px;
+}

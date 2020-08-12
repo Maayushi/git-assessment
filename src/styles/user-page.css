@@ -1,0 +1,315 @@
+.choose-clu-div {
+	position: relative;
+}
+
+.fullmap {
+	margin: 0px;
+	padding: 0px;
+	height: calc(100vh - 190px);
+	width: 100%;
+}
+
+.add-field-box {
+	position: absolute;
+	top: 22px;
+	left: 46px;
+	height: 310px;
+	width: 405px;
+	background-color: #FFFFFF;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 12px;
+	/*padding-bottom: 25px;*/
+}
+
+.add-help .add-field-title{
+	padding-top: 15px;
+	padding-left: 20px;
+	margin-left: -10px;
+	background-color: white;
+	height: 63px;
+	width: 284px;
+}
+
+
+.add-field-title .mdc-fab{
+	height:32px;
+	width:32px;
+	background-color: #1AB146;
+}
+
+.add-field-title h2 {
+	display: inline;
+	color: #1AB146;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+	margin-left: 12px;
+
+}
+
+.myfield-list {
+	padding-top: 20px;
+}
+
+.myfield-list h2 {
+	height: 28px;
+	/*width: 86px;*/
+	color: #455A64;
+	font-size: 20px;
+	font-weight: bold;
+
+	/*line-height: 28px;*/
+}
+
+.select-my-field {
+	/*height: 53px;*/
+	width: 304px;
+	border-radius: 2px 2px 0 0;
+	background-color: #455A64;
+}
+
+.minimap .fullmap{
+	height: 266px;
+	width: 304px;
+}
+
+.unselect-my-field{
+	/*height: 53px;*/
+	width: 304px;
+	border-radius: 2px 2px 0 0;
+	background-color: #DEE4E8;
+}
+.myfield-list .mdc-card{
+	margin-top: 5px;
+}
+
+.myfield-list .mdc-card__supporting-text:last-child {
+	padding-bottom: 5px;
+}
+.select-my-field .mdc-card__supporting-text{
+	color: white;
+}
+
+.select-my-field h1{
+	color: white;
+}
+.myfield-list h1{
+	font-size: 18px;
+}
+
+.add-help {
+	height: 294px;
+	width: 305px;
+	background-color: #EBF5EE;
+	padding: 20px;
+}
+
+.add-help p{
+	color: #455A64;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.add-field-bottom {
+	background-color: #DEE4E8;
+	/*relative position to the map*/
+	position: absolute;
+	top: 310px;
+	left: 46px;
+	height: 50px;
+	width: 405px;
+}
+
+
+
+.add-field-bottom .add-button{
+	width: 128px;
+	top: 8px;
+	right: 5px;
+	position: absolute;
+}
+
+.add-field-bottom .cancel-button {
+	width: 70px;
+	top: 8px;
+	right: 140px;
+	position: absolute;
+}
+
+.exist-message{
+	width: 330px;
+	float: right;
+}
+
+.myfarm-summary-header{
+	height: 24px;
+	width: 300px;
+	margin: 15px 0 15px 0;
+}
+
+.summary-table td{
+	padding: 7px 0px 0px 12px;
+	vertical-align: top;
+}
+
+.south-field {
+	color: #108632;
+	font-size: 20px;
+	font-weight: bold;
+}
+.download-exp{
+	color: black;
+}
+
+.table-header {
+	height: 30px;
+	width: auto;
+	background-color: #EBF5EE;
+	color: #455A64;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	margin: 10px 0 10px 0;
+}
+
+.myfarm-left{
+	float: left;
+	width: 360px;
+	height: calc(100vh - 190px);
+	padding: 40px 0px 40px 40px;
+}
+
+.myfarm-right{
+	float: left;
+	width: calc(100vw - 380px);
+}
+
+.summary-div{
+	padding: 10px 30px 40px 20px;
+}
+
+
+.myfarm-tab {
+	margin: 10px 0 0 24px;
+
+	width:100px;
+}
+
+.myfarm-tab .mdc-tab {
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.myfarm-tab .mdc-tab-bar__indicator{
+	/*not working*/
+	background-color: #1AB146;
+	border: 6px solid #1AB146;
+	height: 3px;
+}
+
+/*table, th, td {*/
+	/*border: 1px solid black;*/
+/*}*/
+
+th {
+	text-align: left;
+	padding: 12px;
+}
+
+/*update forms*/
+
+.myfarm-input h2{
+	height: 28px;
+	/*width: 80px;*/
+	color: #455A64;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.myfarm-input p {
+	height: 16px;
+	width: 131.8px;
+	color: rgba(0,0,0,0.38);
+	font-family: Roboto;
+	font-size: 12px;
+	line-height: 16px;
+	/*margin-top: 10px;*/
+}
+
+.update-box {
+	width: 230px;
+	/*float:left;*/
+	/*display: inline-block;*/
+	height: 70px;
+	margin-right:10px;
+}
+
+.update-box-left{
+	float: left;
+}
+
+.update-box-div{
+	position: relative;
+	height: 90px;
+}
+
+.fertilizer-box-left{
+	float: left;
+	/*height: 500px;*/
+}
+
+.fertilizer-box-div{
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 200px;
+}
+
+/*because fertilizer-box-div has overflow:hidden,
+need this to show the option dropdown of Select */
+.after-fertilizer-div{
+	margin-top: -200px;
+}
+
+.black-bottom-crop{
+	padding-left: 12px;
+	padding-right: 12px;
+	/*margin-bottom: 10px;*/
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.no-bottom-crop{
+	padding-left: 12px;
+	padding-right: 12px;
+	/*margin-bottom: 10px;*/
+	/*border-bottom: 1px solid #D8D8D8;*/
+}
+
+.black-top-crop{
+	padding-left: 12px;
+	padding-right: 12px;
+	/*margin-bottom: 10px;*/
+	border-top: 1px solid #D8D8D8;
+}
+
+/*.myfarm-input .Select-control{*/
+	/*background-color: #CFEBD7;*/
+	/*!*box-shadow: 0 0 3px 0 rgba(0,0,0,0.12), 0 2px 3px 0 rgba(0,0,0,0.12);*!*/
+    /*color: #1AB146;*/
+	/*!*border: 0px;*!*/
+/*}*/
+
+/*.myfarm-input .Select-value-label{*/
+	/*color: #1AB146;*/
+/*}*/
+
+.myfarm-input .mdc-text-field--upgraded:not(.mdc-text-field--fullwidth):not(.mdc-text-field--box):not(.mdc-text-field--textarea){
+	height:auto;
+}
+
+.delete-field{
+	padding-top: 20px;
+}

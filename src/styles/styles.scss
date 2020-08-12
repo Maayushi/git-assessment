@@ -1,0 +1,61 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+.highcharts-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+}
+
+/* Styles */
+body {
+  font: 14px Roboto, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  --mdc-theme-primary: #1AB146;
+  --mdc-theme-primary-light: #CDF1D8;
+  --mdc-theme-primary-dark:  #1AB146;
+  --mdc-theme-secondary: #455A64;
+  --mdc-theme-secondary-light: #A2ACB1;
+  --mdc-theme-secondary-dark: #455A64;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+input.small {
+  width: 46px;
+}
+
+.user-input {
+  float: right;
+}
+
+.date-picker-cc {
+  display: inline;
+  width: 175px;
+}
+
+.weather-pattern {
+  width: 10em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.mdc-checkbox:after, .mdc-checkbox:before {
+  background-color: rgba(162, 172, 177, 0.14);;
+}

@@ -1,0 +1,158 @@
+.event-list {
+	/*if not using grid*/
+	/*width: 450px;*/
+	/*float: left;*/
+	/*margin-bottom: 20px;*/
+	/*margin-right: 20px;*/
+	position: relative;
+}
+
+.choose-card.event-list{
+	background-color: #EBF5EE;
+}
+
+.event-list h2{
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.execution-error .material-icons{
+	color: #E05869;
+}
+
+.execution-success .material-icons{
+	color: #1F977E;
+}
+
+.event-list .material-icons{
+	position: absolute;
+	top: 50%;
+	bottom:50%;
+	right:20px;
+}
+
+.normalIcon{
+	position: initial !important;
+	top: initial !important;
+	bottom: initial !important;
+	right: initial !important;
+	padding-left: 10px
+}
+
+.event-list-text {
+	position: relative;
+	height: 80px;
+	width: 80%;
+}
+
+.text1 {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+}
+
+.text1 .label{
+	margin-right: 10px;
+}
+
+.text2 {
+	position: absolute;
+	top: 34px;
+	left: 0px;
+}
+
+.text3 {
+	position: absolute;
+	top: 56px;
+	left: 0px;
+}
+
+.text4 {
+	position: absolute;
+	top: 12px;
+	left: 50%;
+}
+
+.text5 {
+	position: absolute;
+	top: 34px;
+	left: 50%;
+}
+
+.label {
+	height: 14px;
+	width: 12px;
+	color: #708792;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.experiment-value {
+	padding-left: 60px;
+	color: #000000;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.bold-text {
+	font-size: 16px;
+	font-weight: bold;
+}
+.bold-text.mdc-button {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.event-list-parent {
+	position: relative;
+}
+
+.event-list-header {
+	position: relative;
+	height: 45px;
+	width: 100%;
+	background-color: #1AB146;
+}
+
+.event-list-header .mdc-button:not(:disabled) {
+	color: white;
+}
+
+.event-list-header div {
+	display: inline;
+}
+
+.event-more-options {
+	float:right;
+}
+
+
+
+.pagination-div {
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.pagination-select.mdc-button:not(:disabled) {
+	background-color: #CFEBD7;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pagination-button.mdc-button:not(:disabled){
+	height: 32px;
+	min-width: 25px;
+	color: #34515E;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pagination-button.mdc-button:disabled{
+	height: 32px;
+	min-width: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}

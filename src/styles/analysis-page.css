@@ -1,0 +1,112 @@
+.analysis-map-div {
+	height: calc(100vh - 190px);
+	position: relative;
+}
+
+#analysis-clu {
+	height: 100%;
+}
+
+.search-bg {
+	position: absolute;
+	top: 22px;
+	left: 46px;
+	/*need fix*/
+	/*border-radius: 2px;*/
+	/*box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);*/
+}
+
+.search-bg-error {
+	position: absolute;
+	top: 22px;
+	left: 46px;
+	background-color: #FFFFFF;
+	/*need fix*/
+	/*border-radius: 2px;*/
+	/*box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);*/
+}
+
+.search-bg .mdc-text-field {
+	background-color: #FFFFFF;
+	height: 48px;
+	width: 411px;
+}
+
+.search-bg .Select {
+	width: 411px;
+}
+
+.run-simulate {
+	position: absolute;
+	top: 74px;
+	left: 46px;
+	/*padding-left: 22px;*/
+	/*padding-right: 22px;*/
+	/*padding-top: 12px;*/
+	padding-bottom: 12px;
+	height: auto;
+	width: 411px;
+	background-color: #FFFFFF;
+}
+
+.black-bottom{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.run-simulate .mdc-typography--title{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.run-simulate .mdc-card{
+	background-color: #1AB146;
+	color: white;
+}
+
+.run-simulate .mdc-card__title{
+	font-weight: bold;
+	color: white;
+}
+
+.run-simulate .mdc-card__supporting-text{
+	color: white;
+}
+
+.select-date {
+	float: left;
+	padding-right: 12px;
+	height: 110px;
+}
+
+.select-date-div {
+	float: left;
+	padding-right: 12px;
+}
+
+.run-simulate .mdc-card__supporting-text:last-child{
+	padding-bottom: 0px
+}
+
+.weather-pattern-div .mdc-button:not(:disabled):not(.mdc-button--raised) {
+	background-color: rgba(153, 153, 153, 0.2);
+}
+
+.weather-pattern-div .mdc-button{
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.run-button {
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.run-button .mdc-button:not(:disabled) {
+	height: 54px;
+	background-color: #34515E;
+}
